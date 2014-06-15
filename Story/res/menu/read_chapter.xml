@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- Comment -->
+    <item android:id="@+id/action_comment"
+          android:icon="@drawable/ic_action_comment"
+          android:title="@string/action_comment" 
+          android:showAsAction="ifRoom" />
+    <!-- Vote -->
+    <item android:id="@+id/action_vote"
+          android:icon="@drawable/ic_action_vote"
+          android:title="@string/action_vote" 
+          android:showAsAction="ifRoom" />
+    
+    
+    <!-- Setting -->
+    <item android:id="@+id/action_settings"
+          android:icon="@drawable/ic_action_settings"
+          android:title="@string/action_settings" 
+          android:showAsAction="ifRoom" />
+    
+   
+</menu>

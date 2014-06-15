@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Story</string>
+    <string name="title_activity_list_chapter">List Chapter</string>
+    <string name="title_activity_read_chapter">Read Chapter</string>
+    <string name="title_activity_all_audio_chapters">Listen Audio</string>
+    <string name="title_activity_all_stories">Top Stories</string>
+    <string name="title_activity_manage_user">Manage Users</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_vote">Vote</string>
+    <string name="action_comment">Comment</string>
+    <string name="action_search">Sarch</string>
+    <string name="manage_user">Manage User</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search color..</string>
+
+    <!-- Setting dialog -->
+    <string name="font_size">Font Size</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Top Stories</item>
+        <item>Category</item>
+        <item>Logout</item>
+        <item>Manage Users</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_top_stories</item>
+        <item>@drawable/ic_categories</item>
+        <item>@drawable/ic_logout</item>
+        <item>@drawable/ic_manage_user</item>
+    </array>
+    
+    <array name="manage_actions">
+        <item>Block User</item>
+         <item>Active User</item>
+        <item>View Comments</item>
+        
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_all_categories">AllCategoriesActivity</string>
+
+    <!-- Login Dialog -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Confirm Password</string>
+    <string name="comment">Comment</string>
+    <string name="delete_all_comment">Delete All Comment</string>
+
+</resources>

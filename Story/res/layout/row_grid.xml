@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+    <!-- id Of Story-->	
+	<TextView
+        android:id="@+id/cat_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/cat_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_gravity="center"
+        android:src="@drawable/ic_categories" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/cat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="tuoi hoc tro"
+        android:layout_gravity="center"
+        
+        android:textSize="18sp" >
+    </TextView>
+
+</LinearLayout>
