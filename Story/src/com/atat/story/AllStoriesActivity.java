@@ -266,8 +266,7 @@ public class AllStoriesActivity extends Activity implements OnQueryTextListener 
 			// getting JSON string from URL
 			JSONObject json = jParser.makeHttpRequest(url_all_stories, "GET",null);
 
-			// Check your log cat for JSON reponse
-			// Log.d("All Chapters: ", json.toString());
+		
 
 			try {
 				// Checking for SUCCESS TAG
