@@ -67,11 +67,7 @@ public class AllStoriesActivity extends Activity implements OnQueryTextListener 
 	// url to get all chapters list
 	private static String url_thumb_image_story = "http://192.168.22.1/story/data/images/story/72x72/";
 	private  String url_all_stories = "http://192.168.22.1/story/slim/v1/stories";
-	// private static String url_thumb_image_story =
-	// "http://tuandang.esy.es/story/data/images/story/72x72/";
-	// private static String url_test =
-	// "http://tuandang.esy.es/story/android_connect/get_all_story.php";
-	// XML node keys
+
 	
 	public static final String KEY_ID = "sid";
 	public static final String KEY_IS_AUDIO = "is_audio";
